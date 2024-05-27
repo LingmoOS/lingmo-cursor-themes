@@ -1,12 +1,14 @@
 #! /bin/sh
 set -e
 
-ICONDIR=/usr/share/icons
+ICONDIR=/etc/X11/cursors
 
 case "$1" in
     remove|deconfigure|failed-upgrade)
        update-alternatives --remove x-cursor-theme \
-           $ICONDIR/lingmo-light/cursor.theme
+           $ICONDIR/lingmo-light-cursor.theme
+       update-alternatives --remove x-cursor-theme \
+           $ICONDIR/lingmo-dark-cursor.theme
     ;;
 esac
 
