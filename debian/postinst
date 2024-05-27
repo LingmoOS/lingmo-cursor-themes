@@ -1,0 +1,11 @@
+#! /bin/sh
+set -e
+
+TARGET=/usr/share/icons/default/index.theme
+ICONDIR=/etc/X11/cursors
+
+# breeze_cursors with 602 priority
+update-alternatives --install $TARGET x-cursor-theme \
+    $ICONDIR/lingmo_cur.theme 602
+
+#DEBHELPER#
