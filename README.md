@@ -2,10 +2,10 @@
 
 # lingmo-cursor-themes
 
-LingmoOS Cursor Theme
+lingmoOS Cursor Theme
 
 - Repository: <https://github.com/LingmoOS/lingmo-cursor-themes>
-- License: not declared (not determined when this README was generated)
+- License: GPL-2.0
 - One-line summary source: `debian/control` (`Description` of `Package: lingmo-cursor-themes`)
 
 ## Layout
@@ -47,11 +47,7 @@ dpkg-buildpackage -uc -us -nc -b
 
 ## License
 
-Not declared (not determined when this README was generated):
-
-- The repository root has no license file such as `LICENSE`/`COPYING`.
-- The `License` field of `debian/copyright` is `<special license>`, which does not map to a known license.
-- The repository has no source files to sample.
+GPL-2.0
 
 ## Contributing
 
@@ -59,3 +55,5 @@ Not declared (not determined when this README was generated):
 - Pull requests: <https://github.com/LingmoOS/lingmo-cursor-themes/pulls>
 - Discussions: <https://github.com/orgs/LingmoOS/discussions>
 - Continuous integration: `release.yml` (workflow: Release)
+
+Created from: https://github.com/Neutrovertido/macOS-monterey-cursor

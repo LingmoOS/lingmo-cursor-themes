@@ -1,3 +1,4 @@
 [Icon Theme]
-Name=Lingmo Light
-Inherits="Lingmo-Light"
+Name=Default
+Name[zh_CN]=默认光标
+Inherits=lingmo-light

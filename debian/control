@@ -1,13 +1,13 @@
 Source: lingmo-cursor-themes
 Section: kde
 Priority: optional
-Maintainer: Reion Wong <reion@lingmoos.com>
+Maintainer: Lingmo OS Team <team@lingmo.org>
 Build-Depends:
-Standards-Version: 3.9.6
+Standards-Version: 4.6.9
 Homepage: https://lingmoos.com
-Vcs-Git: https://github.com/LingmoOS/
+Vcs-Git: https://github.com/LingmoOS/lingmo-cursor-themes
 
 Package: lingmo-cursor-themes
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: LingmoOS Cursor Theme
+Description: lingmo OS Cursor Theme

@@ -7,8 +7,8 @@ case "$1" in
     remove|deconfigure|failed-upgrade)
        update-alternatives --remove x-cursor-theme \
            $ICONDIR/lingmo-light-cursor.theme
-       update-alternatives --remove x-cursor-theme \
-           $ICONDIR/lingmo-dark-cursor.theme
+#        update-alternatives --remove x-cursor-theme \
+#            $ICONDIR/lingmo-dark-cursor.theme
     ;;
 esac
 
